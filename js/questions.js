@@ -17,7 +17,11 @@ $(document).ready(function() {
       e.preventDefault();
        if("answer cannotContinue" != $(this).attr("class")) {
           var $curQuestion = $(this).parent().parent(".question");
-           $curQuestion.fadeOut(200);
+          if($('.page2')[0]) {
+            $curQuestion.addClass("animate__fadeOutLeft").fadeOut("fast");
+          } else {
+            $curQuestion.fadeOut(200);
+          }
            var progress = $curQuestion.attr("data-progress");
            if($('#'+progress)[0]) {
              $('#'+progress).css("background-color", "green");
