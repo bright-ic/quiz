@@ -510,6 +510,7 @@ div.t-dot:nth-of-type(4) {
 @media (max-width:767.99px) {
     .comments.comment-heading {width: 100%; margin-bottom: 20px; text-align: center;}
     .progress_wrapper{ padding-right: 40px;}
+    .main-content {}
 }
 @media (min-width:400px) and (max-width:767.99px) { 
     
@@ -551,4 +552,5 @@ div.t-dot:nth-of-type(4) {
       }
   .answer_rapper {display: flex; flex-wrap: wrap; width: 100%; box-sizing: border-box;}
   .answer_rapper a {width: calc(50% - 15px);}
+  .comments {width: 100%;}
 }
