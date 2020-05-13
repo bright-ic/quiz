@@ -46,6 +46,7 @@ body {background: #fff; }
     .visible_mobile {display: block;}
     .invisible_mobile {display: none}
     .quiz_wrapper {padding: 20px;}
+    .link_container {position: relative;}
 }
 @media (min-width:768px) {
    .page2 .answer_rapper {display: flex; flex-wrap: wrap; justify-content: space-between;}
@@ -59,4 +60,5 @@ body {background: #fff; }
 
      .page2 .comments {width: 50%; float: left;}
      .page2 .comments.comment-heading {width: 100%;}
+     .link_container {position: absolute;}
 }
