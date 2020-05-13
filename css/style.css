@@ -555,7 +555,7 @@ div.t-dot:nth-of-type(4) {
 }
 .visible_mobile {display: none;}
 
-/* PAGE 2 */
+/* PAGE 2
 html#page2_html{ background-color: #fff;}
 body.page2 {background: transparent;}
 .page2 .page_container {width: 100%; max-width: 1100px; margin: 0 auto; padding: 20px;}
@@ -615,4 +615,4 @@ body.page2 {background: transparent;}
 
      .page2 .comments {width: 50%; float: left;}
      .page2 .comments.comment-heading {width: 100%;}
-}
+} */
