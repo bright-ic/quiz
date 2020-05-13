@@ -464,7 +464,7 @@ a.answer:nth-of-type(4) {
 .question > p { text-align: center; color: #fff; font-size: 18px; font-weight: 700;}
 .counter_wrapper {padding-top: 60px;}
 .progress_wrapper {padding-top: 15px; padding-bottom: 15px; display: -ms-flexbox; display: flex; flex-wrap: wrap; width: 100%;
-    justify-content: center;
+    justify-content: center; padding-right: 40px;
 }
 .t-dot {
     position: relative; width: calc(100% /4);
@@ -509,6 +509,7 @@ div.t-dot:nth-of-type(4) {
 }
 @media (max-width:767.99px) {
     .comments.comment-heading {width: 100%; margin-bottom: 20px; text-align: center;}
+    .progress_wrapper{ padding-right: 40px;}
 }
 @media (min-width:400px) and (max-width:767.99px) {
     
