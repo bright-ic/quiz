@@ -511,7 +511,7 @@ div.t-dot:nth-of-type(4) {
     .comments.comment-heading {width: 100%; margin-bottom: 20px; text-align: center;}
     .progress_wrapper{ padding-right: 40px;}
 }
-@media (min-width:400px) and (max-width:767.99px) {
+@media (min-width:400px) and (max-width:767.99px) { 
     
 
     .answer_rapper {display: flex; flex-wrap: wrap; width: 100%; box-sizing: border-box;}
